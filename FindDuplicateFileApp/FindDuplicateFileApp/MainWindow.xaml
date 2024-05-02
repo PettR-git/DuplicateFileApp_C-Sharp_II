@@ -1,0 +1,40 @@
+﻿<Window x:Class="FindDuplicateFileApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FindDuplicateFileApp"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Find Duplicate Files" Height="500" Width="600">
+    <Grid>
+        <CheckBox x:Name="cbxChecksum" Content="Checksum" HorizontalAlignment="Left" Margin="29,44,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cbxDateCreated" Content="Date Created" HorizontalAlignment="Left" Margin="29,64,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cbxDateModified" Content="Date Modified" HorizontalAlignment="Left" Margin="29,84,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cbxSize" Content="Size" HorizontalAlignment="Left" Margin="29,104,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cbxFileType" Content="File Type" HorizontalAlignment="Left" Margin="29,24,0,0" VerticalAlignment="Top"/>
+        <ListView x:Name="lvwDuplicateFileNames" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,223,10,51">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button x:Name="btnShowDuplicates" Content="Show Duplicates" HorizontalAlignment="Left" Margin="250,433,0,0" VerticalAlignment="Top" Click="btnShowDuplicates_Click"/>
+        <Button x:Name="btnDelete" Content="Delete" HorizontalAlignment="Left" Margin="342,198,0,0" VerticalAlignment="Top" Click="btnDeleteDuplicates_Click"/>
+        <Label Content="Comparison prerequisites" HorizontalAlignment="Left" Margin="4,-2,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnAddFolder" Content="Add folder" HorizontalAlignment="Left" Margin="49,433,0,0" VerticalAlignment="Top" Click="btnAddFolder_Click" RenderTransformOrigin="0.547,-1.351"/>
+        <GroupBox x:Name="gpxCriterias" Header="" VerticalAlignment="Top" Margin="0,11,459,0" Height="118"/>
+        <ListView x:Name="lvwSeperateFiles" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="170,5,10,276">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button x:Name="btnResetAll" Content="Reset all" HorizontalAlignment="Left" Margin="499,433,0,0" VerticalAlignment="Top" Click="btnResetAll_Click"/>
+        <Label x:Name="lblFolderCounter" Content="0" HorizontalAlignment="Left" Margin="162,430,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblFolderCounterInfo" Content="Folders:" HorizontalAlignment="Left" Margin="114,430,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

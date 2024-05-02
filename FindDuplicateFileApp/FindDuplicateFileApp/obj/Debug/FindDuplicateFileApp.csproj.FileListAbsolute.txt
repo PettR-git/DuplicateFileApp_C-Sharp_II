@@ -1,0 +1,15 @@
+C:\Users\pette\Documents\Skolarbete\C# II\FindDuplicateFileApp\FindDuplicateFileApp\obj\Debug\FindDuplicateFileApp.csproj.AssemblyReference.cache
+C:\Users\pette\Documents\Skolarbete\C# II\FindDuplicateFileApp\FindDuplicateFileApp\obj\Debug\MainWindow.g.cs
+C:\Users\pette\Documents\Skolarbete\C# II\FindDuplicateFileApp\FindDuplicateFileApp\obj\Debug\App.g.cs
+C:\Users\pette\Documents\Skolarbete\C# II\FindDuplicateFileApp\FindDuplicateFileApp\obj\Debug\FindDuplicateFileApp_MarkupCompile.cache
+C:\Users\pette\Documents\Skolarbete\C# II\FindDuplicateFileApp\FindDuplicateFileApp\obj\Debug\FindDuplicateFileApp_MarkupCompile.lref
+C:\Users\pette\Documents\Skolarbete\C# II\FindDuplicateFileApp\FindDuplicateFileApp\bin\Debug\FindDuplicateFileApp.exe.config
+C:\Users\pette\Documents\Skolarbete\C# II\FindDuplicateFileApp\FindDuplicateFileApp\bin\Debug\FindDuplicateFileApp.exe
+C:\Users\pette\Documents\Skolarbete\C# II\FindDuplicateFileApp\FindDuplicateFileApp\bin\Debug\FindDuplicateFileApp.pdb
+C:\Users\pette\Documents\Skolarbete\C# II\FindDuplicateFileApp\FindDuplicateFileApp\obj\Debug\MainWindow.baml
+C:\Users\pette\Documents\Skolarbete\C# II\FindDuplicateFileApp\FindDuplicateFileApp\obj\Debug\FindDuplicateFileApp.g.resources
+C:\Users\pette\Documents\Skolarbete\C# II\FindDuplicateFileApp\FindDuplicateFileApp\obj\Debug\FindDuplicateFileApp.Properties.Resources.resources
+C:\Users\pette\Documents\Skolarbete\C# II\FindDuplicateFileApp\FindDuplicateFileApp\obj\Debug\FindDuplicateFileApp.csproj.GenerateResource.cache
+C:\Users\pette\Documents\Skolarbete\C# II\FindDuplicateFileApp\FindDuplicateFileApp\obj\Debug\FindDuplicateFileApp.csproj.CoreCompileInputs.cache
+C:\Users\pette\Documents\Skolarbete\C# II\FindDuplicateFileApp\FindDuplicateFileApp\obj\Debug\FindDuplicateFileApp.exe
+C:\Users\pette\Documents\Skolarbete\C# II\FindDuplicateFileApp\FindDuplicateFileApp\obj\Debug\FindDuplicateFileApp.pdb

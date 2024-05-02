@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindDuplicateFileApp", "FindDuplicateFileApp\FindDuplicateFileApp.csproj", "{F62B0AD8-4574-409A-BF52-347BD5A0A405}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F62B0AD8-4574-409A-BF52-347BD5A0A405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F62B0AD8-4574-409A-BF52-347BD5A0A405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F62B0AD8-4574-409A-BF52-347BD5A0A405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F62B0AD8-4574-409A-BF52-347BD5A0A405}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD56A4C6-145B-4E48-BCDC-5816BE2B615D}
+	EndGlobalSection
+EndGlobal
